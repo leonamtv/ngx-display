@@ -4,7 +4,7 @@
     <img src="assets/logo.png" width=700>
 </p>
 
-This library renders **seven and sixteen segments** displays according to the input parameters. It exports four components:
+This library renders **seven and sixteen segments** displays according to the input parameters. [Live Demo](https://leonamtv.github.io/ngx-display) It exports four components:
 
 * SevenSegmentComponent `<seven-segment>`: Renders a seven segments display according to a **bitmap**, following the standard below:
 <p align='center'>
