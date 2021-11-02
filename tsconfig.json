@@ -11,6 +11,15 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "NgxDisplayModule" : [
+        "dist/ngx-display"
+      ],
+      "ngx-display": [
+        "dist/ngx-display/ngx-display",
+        "dist/ngx-display"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,

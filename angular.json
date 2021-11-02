@@ -125,6 +125,46 @@
           }
         }
       }
+    },
+    "NgxDisplay": {
+      "projectType": "library",
+      "root": "projects/ngx-display",
+      "sourceRoot": "projects/ngx-display/src",
+      "prefix": "display",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-display/tsconfig.lib.json",
+            "project": "projects/ngx-display/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-display/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-display/src/test.ts",
+            "tsConfig": "projects/ngx-display/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-display/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-display/tsconfig.lib.json",
+              "projects/ngx-display/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "DisplayLibrary"

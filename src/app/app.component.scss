@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    div {
+        display: inline-block;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .ngx-display {
+        margin-top: 20px;
+        position: relative;
+        width: 792px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vader-quote {
+        position: relative;
+        width: 950px;
+        left: 50%;
+        transform: translateX(-50%);
+        .spacer {
+            margin-right: 5px;
+        }
+    }
+}
+
+.info {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    a, p {
+        color: #56cfff80;
+        font-size: 12px;
+        letter-spacing: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        img {
+            width: 250px;
+        }
+    }
+}
