@@ -1,10 +1,24 @@
 {
   "name": "ngx-display",
   "version": "0.0.1",
+  "description": "A library to render Seven and Sixteen segments displays",
+  "author": "Leonam Teixeira de Vasconcelos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonamtv/ngx-display"
+  },
+  "bugs": {
+    "url": "https://github.com/leonamtv/ngx-display/issues"
+  },
+  "homepage": "https://leonamtv.github.io/ngx-display-demo",
   "peerDependencies": {
     "@angular/common": "^11.2.14",
     "@angular/core": "^11.2.14"
   },
+  "license": "MIT",
+  "keywords": [
+    "angular", "javascript", "typescript", "canvas", "display"
+  ],
   "dependencies": {
     "tslib": "^2.0.0"
   }
