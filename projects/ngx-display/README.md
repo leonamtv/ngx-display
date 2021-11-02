@@ -4,11 +4,11 @@
     <img src="https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display/assets/logo.png" width=700>
 </p>
 
-This library renders **seven and sixteen segments** displays according to the input parameters. [Live Demo](https://leonamtv.github.io/ngx-display) It exports four components:
+This library renders **seven and sixteen segments** displays according to the input parameters. [Live Demo](https://leonamtv.github.io/ngx-display-demo) It exports four components:
 
 * SevenSegmentComponent `<seven-segment>`: Renders a seven segments display according to a **bitmap**, following the standard below:
 <p align='center'>
-    <img src="https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display//sevenSeg.png" width=100>
+    <img src="https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display/assets/sevenSeg.png" width=100>
 </p>
 
 * SevenSegmentDigitComponent `<seven-segment-digit>`: Renders a digit in a seven segments display, according to the table below:
@@ -38,7 +38,7 @@ This library renders **seven and sixteen segments** displays according to the in
 
 * SixteenSegmentComponent `<sixteen-segment>`: Renders a sixteen segments display according to a **bitmap**, following the standard below:
 <p align='center'>
-    <img src="https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display//sixteenSeg.png" width=200>
+    <img src="https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display/assets/sixteenSeg.png" width=200>
 </p>
 
 * SixteenSegmentDigitComponent `<sixteen-segment-digit>`: Renders a digit in a sixteen segments display, according to the table below:
@@ -72,13 +72,13 @@ This library renders **seven and sixteen segments** displays according to the in
 | O |  74661   | u |  2816    |                              
 | P |  78349   | v |  1536    |                              
 | Q |  74677   | w |  1584    |                              
-| R |  78365,  | x |  17426   |                              
+| R |  78365   | x |  17426   |                              
 | S |  78249   | y |  32940   |                              
 | T |  100353  | z |  5376    |                              
 | U |  9124    |   |   0      |                         
 | V |  9730    | , |  1024    |               
 | . |  64      | - |  4104    |
-| " | 40960 |
+| " |  40960 | ||
 
 
 ## Usage
@@ -293,7 +293,7 @@ Where:
 Result (some adicional css were added only for alignment and general background color):
 
 <p align='center'>
-    <img src='https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display//sevenSegAlphabet.png' width=850>
+    <img src='https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display/assets/sevenSegAlphabet.png' width=850>
 </p>
 
 ### Example 2: Sixteen Segment Display alphabet
@@ -339,5 +339,5 @@ Result (some adicional css were added only for alignment and general background 
 Result (some adicional css were added only for alignment and general background color):
 
 <p align='center'>
-    <img src='https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display//sixteenSegAlphabet.png' width=850>
+    <img src='https://raw.githubusercontent.com/leonamtv/ngx-display/master/projects/ngx-display/assets/sixteenSegAlphabet.png' width=850>
 </p>
