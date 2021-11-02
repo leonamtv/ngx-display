@@ -1,6 +1,6 @@
 {
   "name": "ngx-display",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to render Seven and Sixteen segments displays",
   "author": "Leonam Teixeira de Vasconcelos",
   "repository": {
